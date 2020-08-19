@@ -1,56 +1,128 @@
-/*
-Error: Invalid CSS after "": expected selector, was "<<<<<<< HEAD"
-        on line 123 of main.scss
-
-118:     margin-top: 0;
-119:   }
-120: }
-121: 
-122: 
-123: <<<<<<< HEAD
-124: =======
-125: 
-126: >>>>>>> c6ccbb60b39365874aa68459f17e6d39e75c10f7
-127: /*-------------------------HOME PAGE-----------------------------*\/
-128: 
-
-Backtrace:
-main.scss:123
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1218:in `expr!'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/static_parser.rb:20:in `parse_selector'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:434:in `visit_rule'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:387:in `run'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
-/usr/local/bin/sass:23:in `load'
-/usr/local/bin/sass:23:in `<main>'
-*/
-body:before {
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
   white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"\": expected selector, was \"<<<<<<< HEAD\"\A         on line 123 of main.scss\A \A 118:     margin-top: 0;\A 119:   }\A 120: }\A 121: \A 122: \A 123: <<<<<<< HEAD\A 124: =======\A 125: \A 126: >>>>>>> c6ccbb60b39365874aa68459f17e6d39e75c10f7\A 127: /*-------------------------HOME PAGE-----------------------------*/\A 128: "; }
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black; }
+
+a a:hover {
+  border-bottom-color: transparent;
+  color: #9bf1ff !important; }
+a a:active {
+  color: #53e3fb !important; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1d1c1c;
+  font-weight: 600;
+  line-height: 1.65;
+  margin: 0 0 1em 0; }
+
+h1 {
+  font-size: 2.5em; }
+
+h2 {
+  font-size: 1.75em; }
+
+h3 {
+  font-size: 1.35em; }
+
+h4 {
+  font-size: 1.1em; }
+
+h5 {
+  font-size: 0.9em; }
+
+h6 {
+  font-size: 0.7em; }
+
+@media screen and (max-width: 736px) {
+  h1 {
+    font-size: 2em; }
+
+  h2 {
+    font-size: 1.5em; }
+
+  h3 {
+    font-size: 1.25em; } }
+/* ---------------------------------START OF CONTACT FORM */
+* {
+  box-sizing: border-box; }
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; }
+
+input[type=submit] {
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer; }
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  padding: 10px; }
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px; }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0; } }
+/*-------------------------HOME PAGE-----------------------------*/
+.parallax {
+  /* The image used */
+  background-image: url("resources/image1.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.wrap-center {
+  margin: 0 auto;
+  position: relative;
+  max-width: 73.231em; }
+
+.banner-centered {
+  text-align: center;
+  position: absolute;
+  display: block;
+  max-width: 75.231em;
+  height: inherit;
+  overflow: hidden;
+  margin-top: 100px; }
+
+.banner-centered h2 {
+  font-size: 5.385em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fafafa;
+  font-weight: 100;
+  display: block; }
+
+/*-------------------------------------------------------------------------*/
+/* image for page about us */
+
+/*# sourceMappingURL=main.css.map */
