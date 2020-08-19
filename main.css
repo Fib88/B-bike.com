@@ -4,7 +4,6 @@ body::before {
   display: block;
   padding: 1em;
   margin-bottom: 1em;
-<<<<<<< HEAD
   border-bottom: 2px solid black; }
 
 a a:hover {
@@ -12,24 +11,11 @@ a a:hover {
   color: #9bf1ff !important; }
 a a:active {
   color: #53e3fb !important; }
-=======
-  border-bottom: 2px solid black;
-}
-
-a a:hover {
-  border-bottom-color: transparent;
-  color: #9bf1ff !important;
-}
-a a:active {
-  color: #53e3fb !important;
-}
->>>>>>> 4c4c2f50a04ddbecd108bf2ce06f00da59259792
 
 h1, h2, h3, h4, h5, h6 {
   color: #1d1c1c;
   font-weight: 600;
   line-height: 1.65;
-<<<<<<< HEAD
   margin: 0 0 1em 0; }
 
 h1 {
@@ -62,52 +48,6 @@ h6 {
 /* ---------------------------------START OF CONTACT FORM */
 * {
   box-sizing: border-box; }
-=======
-  margin: 0 0 1em 0;
-}
-
-h1 {
-  font-size: 2.5em;
-}
-
-h2 {
-  font-size: 1.75em;
-}
-
-h3 {
-  font-size: 1.35em;
-}
-
-h4 {
-  font-size: 1.1em;
-}
-
-h5 {
-  font-size: 0.9em;
-}
-
-h6 {
-  font-size: 0.7em;
-}
-
-@media screen and (max-width: 736px) {
-  h1 {
-    font-size: 2em;
-  }
-
-  h2 {
-    font-size: 1.5em;
-  }
-
-  h3 {
-    font-size: 1.25em;
-  }
-}
-/* ---------------------------------START OF CONTACT FORM */
-* {
-  box-sizing: border-box;
-}
->>>>>>> 4c4c2f50a04ddbecd108bf2ce06f00da59259792
 
 /* Style inputs */
 input[type=text], select, textarea {
@@ -116,68 +56,37 @@ input[type=text], select, textarea {
   border: 1px solid #ccc;
   margin-top: 6px;
   margin-bottom: 16px;
-<<<<<<< HEAD
   resize: vertical; }
-=======
-  resize: vertical;
-}
->>>>>>> 4c4c2f50a04ddbecd108bf2ce06f00da59259792
 
 input[type=submit] {
   color: white;
   padding: 12px 20px;
   border: none;
-<<<<<<< HEAD
   cursor: pointer; }
-=======
-  cursor: pointer;
-}
->>>>>>> 4c4c2f50a04ddbecd108bf2ce06f00da59259792
 
 /* Style the container/contact section */
 .container {
   border-radius: 5px;
-<<<<<<< HEAD
   padding: 10px; }
-=======
-  padding: 10px;
-}
->>>>>>> 4c4c2f50a04ddbecd108bf2ce06f00da59259792
 
 /* Create two columns that float next to eachother */
 .column {
   float: left;
   width: 50%;
   margin-top: 6px;
-<<<<<<< HEAD
   padding: 20px; }
-=======
-  padding: 20px;
-}
->>>>>>> 4c4c2f50a04ddbecd108bf2ce06f00da59259792
 
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
-<<<<<<< HEAD
   clear: both; }
-=======
-  clear: both;
-}
->>>>>>> 4c4c2f50a04ddbecd108bf2ce06f00da59259792
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column, input[type=submit] {
     width: 100%;
-<<<<<<< HEAD
     margin-top: 0; } }
-=======
-    margin-top: 0;
-  }
-}
->>>>>>> 4c4c2f50a04ddbecd108bf2ce06f00da59259792
 /*-------------------------HOME PAGE-----------------------------*/
 .parallax {
   /* The image used */
@@ -188,24 +97,17 @@ input[type=submit] {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-<<<<<<< HEAD
   background-size: cover; }
 
-.wrap-center {
-  margin: 0 auto;
-  position: relative;
-  max-width: 73.231em; }
-=======
-  background-size: cover;
-}
+.small-im {
+  width: 4rem;
+  padding-bottom: 1rem; }
 
 /*-----services style------*/
 .wrap-center {
   margin: 0 auto;
   position: relative;
-  max-width: 73.231em;
-}
->>>>>>> 4c4c2f50a04ddbecd108bf2ce06f00da59259792
+  max-width: 73.231em; }
 
 .banner-centered {
   text-align: center;
@@ -214,12 +116,7 @@ input[type=submit] {
   max-width: 75.231em;
   height: inherit;
   overflow: hidden;
-<<<<<<< HEAD
   margin-top: 100px; }
-=======
-  margin-top: 100px;
-}
->>>>>>> 4c4c2f50a04ddbecd108bf2ce06f00da59259792
 
 .banner-centered h2 {
   font-size: 5.385em;
@@ -228,20 +125,11 @@ input[type=submit] {
   letter-spacing: 2px;
   color: #fafafa;
   font-weight: 100;
-<<<<<<< HEAD
   display: block; }
 
 /*-------------------------------------------------------------------------*/
 /* image for page about us */
-=======
-  display: block;
-}
-
-/*-------------------------------------------------------------------------*/
-/* image for page about us */
 .aboutus1 {
-  width: 100%;
-}
->>>>>>> 4c4c2f50a04ddbecd108bf2ce06f00da59259792
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
