@@ -1,17 +1,159 @@
-/* Error: expected selector.
- *     ,
- * 124 | <<<<<<< HEAD
- *     | ^
- *     '
- *   main.scss 124:1  root stylesheet */
-
+@charset "UTF-8";
 body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
   white-space: pre;
   display: block;
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: expected selector.\a     \2577 \a 124 \2502  <<<<<<< HEAD\a     \2502  ^\a     \2575 \a   main.scss 124:1  root stylesheet";
+  content: 'Error: expected "{".\a   ╷\a 1 │ <!doctype html>\a   │  ^\a   ╵\a   aboutus.html 1:2  root stylesheet';
 }
+
+a a:hover {
+  border-bottom-color: transparent;
+  color: #9bf1ff !important;
+}
+a a:active {
+  color: #53e3fb !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1d1c1c;
+  font-weight: 600;
+  line-height: 1.65;
+  margin: 0 0 1em 0;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.35em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+h5 {
+  font-size: 0.9em;
+}
+
+h6 {
+  font-size: 0.7em;
+}
+
+@media screen and (max-width: 736px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+  }
+}
+/* ---------------------------------START OF CONTACT FORM */
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/*-------------------------HOME PAGE-----------------------------*/
+.parallax {
+  /* The image used */
+  background-image: url("resources/image1.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrap-center {
+  margin: 0 auto;
+  position: relative;
+  max-width: 73.231em;
+}
+
+.banner-centered {
+  text-align: center;
+  position: absolute;
+  display: block;
+  max-width: 75.231em;
+  height: inherit;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.banner-centered h2 {
+  font-size: 5.385em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fafafa;
+  font-weight: 100;
+  display: block;
+}
+
+/*-------------------------------------------------------------------------*/
+/* image for page about us */
+.aboutus1 {
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */
