@@ -1,9 +1,4 @@
-/* Error: expected "{".
- *   ,
- * 1 | <!doctype html>
- *   |  ^
- *   '
- *   aboutus.html 1:2  root stylesheet */
+
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -15,8 +10,7 @@ body::before {
   border-bottom: 2px solid black;
   content: 'Error: expected "{".\a   \2577 \a 1 \2502  <!doctype html>\a   \2502   ^\a   \2575 \a   aboutus.html 1:2  root stylesheet';
 }
-<<<<<<< HEAD
-=======
+
 a {
   a:hover {
     border-bottom-color: transparent;
@@ -28,10 +22,8 @@ a {
   }
 }
 h1, h2, h3, h4, h5, h6 {
-<<<<<<< HEAD
-=======
+
   color: #1d1c1c;
->>>>>>> dc1c293874d654e671f885af1c6a4ee40bb04de7
   font-weight: 600;
   line-height: 1.65;
   margin: 0 0 1em 0;
@@ -127,13 +119,8 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
-<<<<<<< HEAD
->>>>>>> 96319f97e7fe12e28b03237585e618e4ef0b8d0f
-=======
 
-/* --------------------END OF CONTACT FORM */
 
-/*-------------------- INDEX-LAYOUT------------------------------------------*/
 .parallax {
   /* The image used */
   background-image: url("resources/image1.jpg");
@@ -149,6 +136,5 @@ input[type=submit]:hover {
 }
 /*-------------------------------------------------------------------------*/
 
->>>>>>> 1f314a187eabf9e94de3611293679c8963e24520
 
 /* image for page about us */
