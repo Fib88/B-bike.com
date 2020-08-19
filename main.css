@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-/* Error: expected "{".
- *    ,
- * 25 |   color: #1d1c1c;
- *    |                 ^
- *    '
- *   main.scss 25:17  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 25 \2502    color: #1d1c1c;\a    \2502                  ^\a    \2575 \a   main.scss 25:17  root stylesheet';
-}
-=======
 a {
   -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -144,4 +125,3 @@ input[type=submit] {
 /*-------------------------------------------------------------------------*/
 
 /*# sourceMappingURL=main.css.map */
->>>>>>> 5123ad6fdd30ed578deb1cb28fcd0fb75d115fb2
