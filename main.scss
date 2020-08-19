@@ -18,7 +18,10 @@ a {
   }
 }
 h1, h2, h3, h4, h5, h6 {
-  color: #ffffff;
+<<<<<<< HEAD
+=======
+  color: #1d1c1c;
+>>>>>>> dc1c293874d654e671f885af1c6a4ee40bb04de7
   font-weight: 600;
   line-height: 1.65;
   margin: 0 0 1em 0;
@@ -61,7 +64,7 @@ h6 {
   }
 
 }
-
+/* ---------------------------------START OF CONTACT FORM */
 * {
   box-sizing: border-box;
 }
@@ -114,3 +117,22 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+
+/* --------------------END OF CONTACT FORM */
+
+/*-------------------- INDEX-LAYOUT------------------------------------------*/
+.parallax {
+  /* The image used */
+  background-image: url("resources/image1.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*-------------------------------------------------------------------------*/
+
