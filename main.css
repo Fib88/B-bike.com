@@ -14,7 +14,7 @@ a a:active {
   color: #53e3fb !important; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #ffffff;
+  color: #1d1c1c;
   font-weight: 600;
   line-height: 1.65;
   margin: 0 0 1em 0; }
@@ -90,7 +90,7 @@ input[type=submit] {
 /*-------------------- INDEX-LAYOUT------------------------------------------*/
 .parallax {
   /* The image used */
-  background-image: url("image1.jpg");
+  background-image: url("resources/image1.jpg");
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */
