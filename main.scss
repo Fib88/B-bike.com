@@ -1,12 +1,16 @@
-a {
-  -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  border-bottom: dotted 1px;
-  color: inherit;
-  text-decoration: none;
+
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a   \2577 \a 1 \2502  <!doctype html>\a   \2502   ^\a   \2575 \a   aboutus.html 1:2  root stylesheet';
 }
+
 a {
   a:hover {
     border-bottom-color: transparent;
@@ -18,6 +22,7 @@ a {
   }
 }
 h1, h2, h3, h4, h5, h6 {
+
   color: #1d1c1c;
   font-weight: 600;
   line-height: 1.65;
@@ -116,8 +121,11 @@ input[type=submit]:hover {
 }
 
 
+<<<<<<< HEAD
 /*-------------------------HOME PAGE-----------------------------*/
 
+=======
+>>>>>>> 959c2c2e0fd0306fdc03afdb3a7311f83022bf33
 .parallax {
   /* The image used */
   background-image: url("resources/image1.jpg");
@@ -160,3 +168,5 @@ input[type=submit]:hover {
 }
 /*-------------------------------------------------------------------------*/
 
+
+/* image for page about us */

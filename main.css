@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 a {
   -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -6,6 +7,18 @@ a {
   border-bottom: dotted 1px;
   color: inherit;
   text-decoration: none; }
+=======
+@charset "UTF-8";
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a   ╷\a 1 │ <!doctype html>\a   │  ^\a   ╵\a   aboutus.html 1:2  root stylesheet';
+}
+>>>>>>> 959c2c2e0fd0306fdc03afdb3a7311f83022bf33
 
 a a:hover {
   border-bottom-color: transparent;
@@ -124,5 +137,6 @@ input[type=submit] {
   display: block; }
 
 /*-------------------------------------------------------------------------*/
+/* image for page about us */
 
 /*# sourceMappingURL=main.css.map */
