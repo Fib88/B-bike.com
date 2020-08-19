@@ -8,7 +8,6 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a   \2577 \a 1 \2502  <!doctype html>\a   \2502   ^\a   \2575 \a   aboutus.html 1:2  root stylesheet';
 }
 
 a {
@@ -140,7 +139,6 @@ input[type=submit]:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .wrap-center{
   margin: 0 auto;
