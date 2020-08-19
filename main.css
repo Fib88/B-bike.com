@@ -125,5 +125,8 @@ input[type=submit] {
 
 /*-------------------------------------------------------------------------*/
 /* image for page about us */
+.aboutus1 {
+  width: 100%;
+}
 
 /*# sourceMappingURL=main.css.map */
