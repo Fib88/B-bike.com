@@ -1,9 +1,9 @@
 /* Error: expected "{".
- *     ,
- * 127 | >>>>>>> 96319f97e7fe12e28b03237585e618e4ef0b8d0f
- *     |                                                 ^
- *     '
- *   main.scss 127:49  root stylesheet */
+ *    ,
+ * 33 |   color: #1d1c1c;
+ *    |                 ^
+ *    '
+ *   main.scss 33:17  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a     \2577 \a 127 \2502  >>>>>>> 96319f97e7fe12e28b03237585e618e4ef0b8d0f\a     \2502                                                  ^\a     \2575 \a   main.scss 127:49  root stylesheet';
+  content: 'Error: expected "{".\a    \2577 \a 33 \2502    color: #1d1c1c;\a    \2502                  ^\a    \2575 \a   main.scss 33:17  root stylesheet';
 }
