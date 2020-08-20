@@ -189,10 +189,15 @@ input[type=submit] {
 }
 
 /*-------------------------------------------------------------------------*/
-/* image for page about us */
+/* image for page about us
 .aboutus1 {
-  width: 100%;
-}
+width: 100%;
+} */
+/*
+
+
+
+
 
 /* ---------------------BLOG--------------------*/
 .flex1 {
@@ -201,6 +206,10 @@ input[type=submit] {
 
 .text_spacingblog {
   margin-right: 20px;
+}
+
+#otherfont {
+  font-family: "Roboto Slab", serif;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -9,7 +9,7 @@ Each person focused on one page but we still made sure to keep the pages coheren
 and styling.
 
 
-###We divided the pages as follows:
+### We divided the pages as follows:
 
 
 + Lea: Home Page
@@ -201,3 +201,6 @@ Doing the evaluation
 ### Errors are to be avoided
 - [ ] No http resources are used on an https website
 - [ ] The console shows no errors
+
+### Personal requirements
+- [ ] Make your urls open in a new tab
