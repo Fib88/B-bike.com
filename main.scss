@@ -120,6 +120,7 @@ input[type=submit]:hover {
 
 /*-------------------------HOME PAGE-----------------------------*/
 
+
 .parallax {
   /* The image used */
   background-image: url("resources/image1.jpg");
@@ -138,6 +139,15 @@ input[type=submit]:hover {
   width: 4rem;
   padding-bottom:1rem;
 }
+@media only screen and (max-width: 600px) {
+  .col{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+
 /*-----services style------*/
 
 
