@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>
+<body class="bg-light">
 
 <div class="header text-center">
     <h1>INSERT IMAGE HERE</h1>
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">B-bike</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -40,23 +40,25 @@
                 <a class="nav-link" href="blog.html">blog</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
     </div>
 </nav>
 
 <div class="container">
-    <h1>Contact</h1>
+<div class="alert alert-danger" role="alert">
+    <strong>COVID-19 measures -</strong>
+    <a href="#!" class="alert-link">Respect the 5 customer rule, wear a mask and keep your distance please.</a>
+    Thank you!
+</div>
 </div>
 
 <div class="container">
     <div class="row">
         <div class="column">
+            <h2>Where to find us?</h2>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2498.643848491332!2d4.398762415121469!3d51.22563623908726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f6591c88f09d%3A0x31d6c38718baba03!2sThe%20Beacon!5e0!3m2!1snl!2sbe!4v1597830979335!5m2!1snl!2sbe" width="500" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
         <div class="column">
+            <h2>Contact us!</h2>
             <form action="mailto:someone@example.com" method="post" enctype="text/plain">
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -114,16 +116,48 @@
     </div>
 </div>
 
-<div class="container">
-    <div class="alert alert-info" role="alert">
-        <strong>Or call us  here</strong>
-    </div>
-</div>
 <!-- Footer -->
-<footer class="page-footer font-small blue">
+
+<footer class="page-footer font-small blue bg-dark">
+    <div class=" container mt-3 d-flex flex-row pt-5">
+        <div class="p-2 m-3 w-25">
+            <div class="card-body">
+                <h3 class="card-title">B-bike</h3>
+                <p class="card-text">
+                    Tolhuis,<br>
+                    Sint-Pietersvliet 7,<br>
+                    2000 Antwerpen
+                </p>
+                <p>Phone : 555-555-5555</p>
+            </div>
+        </div>
+        <div class="p-2 m-3 w-50 ">
+            <div class="card-body">
+                <table class="table">
+                    <thead>
+                    <tr class="text-center">
+                        <th></th>
+                        <th>Opening hours</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">From monday to saturday :</th>
+                        <td class="text-center">10:00-18:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sunday :</th>
+                        <td class="text-center">Closed</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        <a href="https://mdbootstrap.com/"> B-bike, Inc.</a>
     </div>
     <!-- Copyright -->
 </footer>
