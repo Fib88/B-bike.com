@@ -199,3 +199,6 @@ Doing the evaluation
 ### Errors are to be avoided
 - [ ] No http resources are used on an https website
 - [ ] The console shows no errors
+
+### Personal requirements
+- [ ] Make your urls open in a new tab
