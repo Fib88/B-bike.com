@@ -159,5 +159,13 @@ input[type=submit] {
 .aboutus1 {
   width: 100%;
 }
+<<<<<<< HEAD
+=======
+
+/* ---------------------BLOG--------------------*/
+.flex1 {
+  flex-grow: 1;
+}
+>>>>>>> 383255d08efbe76d85e985a050ba63254ca12790
 
 /*# sourceMappingURL=main.css.map */
