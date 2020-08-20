@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # B-Bike.com
 
 ### Awet, Lea, Michiel, Whitney, Frank
@@ -199,5 +199,4 @@ Errors are to be avoided
 
     No http resources are used on an https website
     The console shows no errors
-=======
->>>>>>> d9cdfca80d79f7ad8d2e890a0437b566ff01a6de
+
