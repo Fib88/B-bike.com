@@ -9,7 +9,7 @@ Each person focused on one page but we still made sure to keep the pages coheren
 and styling.
 
 
-###We divided the pages as follows:
+### We divided the pages as follows:
 
 
 + Lea: Home Page
