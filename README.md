@@ -88,23 +88,23 @@ Doing the evaluation
 - [ ] All elements work and are complete (menu, lists, images, ...)
 - [ ] Everything on the page has a function, a reason to be there
 - [ ] No dead links
-- [ ] English and dutch are not mixed
+- [x] English and dutch are not mixed
 - [ ] No spelling errors
 - [ ] No grammar errors
 - [ ] The website is deployed somewhere
 - [ ] Everything is relevant (no image of a barber on the website of a baker)
 
 ### Content
-- [ ] Openinghours (if needed)
-- [ ] Address (if needed)
-- [ ] Clickable email
-- [ ] A working form (you can use https://formspree.io)
+- [x] Openinghours (if needed)
+- [x] Address (if needed)
+- [x] Clickable email
+- [x] A working form (you can use https://formspree.io)
 
 ### Text life matters aka typography is real
 - [ ] Some words are bolded
 - [ ] Some words are italic
 - [ ] Some words have a different color
-- [ ] We aren't using a default font, cause it's not 2004
+- [x] We aren't using a default font, cause it's not 2004
 - [ ] Contrast is not too low
 - [ ] Typographic hierachy is correct
 - [ ] Text has a clear intro, middle, conclusion
@@ -116,14 +116,14 @@ Doing the evaluation
 ### Style
 - [ ] Black is almost black but not #000
 - [ ] White is almost white but not #fff
-- [ ] The website is not an ugly color mess
+- [x] The website is not an ugly color mess
 - [ ] The styling is consistent
 - [ ] It is not four totally different pages thrown together
 - [ ] Everything works even if you are colorblind
 
 ### Not everyone has free 4G aka speed matters
 - [ ] Pictures are not too heavy
-- [ ] Pictures are not pixelated
+- [x] Pictures are not pixelated
 
 ### A company wants to be found/SEO	
 - [ ] All the keywords this company wants to be found on are on the page 
@@ -145,19 +145,19 @@ Doing the evaluation
 - [ ] A github website has been filled in
 
 ### Readme but also writeme
-- [ ] The readme says who made it
-- [ ] The readme says why they made it
-- [ ] The readme explains what this repo/project is
-- [ ] The readme explains why it is on github
-- [ ] The readme links to a preview (screenshot)
-- [ ] The readme contains a nice image
-- [ ] The readme does not contain the readme/license of dependencies, libraries, templates
+- [x] The readme says who made it
+- [x] The readme says why they made it
+- [x] The readme explains what this repo/project is
+- [x] The readme explains why it is on github
+- [x] The readme links to a preview (screenshot)
+- [x] The readme contains a nice image
+- [x] The readme does not contain the readme/license of dependencies, libraries, templates
 - [ ] If needed they are included in the repo and are mentioned in the readme
-- [ ] The readme has a markdown title
-- [ ] The readme is divided in sections
+- [x] The readme has a markdown title
+- [x] The readme is divided in sections
 - [ ] The readme is fun to read
-- [ ] The readme looks good
-- [ ] The readme is clear, even for someone that has no idea what is going on
+- [x] The readme looks good
+- [x] The readme is clear, even for someone that has no idea what is going on
 
 ### I'm So Meta, Even This Acronym
 - [ ] Social media sharing meta tags are correct
@@ -178,7 +178,7 @@ Doing the evaluation
 
 ### Putting the antics back in semantics (but only for the html)
 - [ ] The html is semanticly correct
-- [ ] Navigation is in a nav
+- [x] Navigation is in a nav
 - [ ] Lists use list tags
 - [ ] H tags are used to signal importance
 - [ ] No div is used where another element is available
@@ -204,3 +204,16 @@ Doing the evaluation
 
 ### Personal requirements
 - [ ] Make your urls open in a new tab
+- [x] Add a Google Map Embed
+
+### Extra requirements from other groups 
+- [x] Have a footer
+- [x] Have a copyright on the website
+- [ ] Make your page fully accessible for the visualy impaired/blind
+- [ ] Add an effect on hover over your clickable pictures 
+- [ ] Add a review carousel
+- [ ] Add at least one CSS animation
+
+
+
+
