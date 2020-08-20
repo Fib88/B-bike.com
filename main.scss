@@ -170,7 +170,9 @@ input[type=submit]:hover {
 
 
 /*-----services style------*/
-
+.list-style li {
+  list-style: none;
+}
 .wrap-center{
   margin: 0 auto;
   position: relative;
