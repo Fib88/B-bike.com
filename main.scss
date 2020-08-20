@@ -1,6 +1,4 @@
 body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
   white-space: pre;
   display: block;
   padding: 1em;
@@ -18,13 +16,19 @@ a {
     color: #53e3fb !important;
   }
 }
-h1, h2, h3, h4, h5, h6 {
 
+.container {
+  font-family: 'Roboto Slab', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
   color: #1d1c1c;
   font-weight: 600;
   line-height: 1.65;
   margin: 0 0 1em 0;
+  font-family: 'Roboto Slab', serif;
 }
+
 h1 {
   font-size: 2.5em;
 }
@@ -62,6 +66,21 @@ h6 {
     font-size: 1.25em;
   }
 
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:75%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
 
 /* ---------------------------------START OF CONTACT FORM */
@@ -195,4 +214,11 @@ width: 100%;
 .flex1 {
   flex-grow:1;
 }
+
+.text_spacingblog {
+  margin-right: 20px;
+}
+
+
+
 
