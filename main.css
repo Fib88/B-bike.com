@@ -122,6 +122,11 @@ input[type=submit] {
   background-size: cover;
 }
 
+.small-im {
+  width: 4rem;
+  padding-bottom: 1rem;
+}
+
 /*-----services style------*/
 .wrap-center {
   margin: 0 auto;
@@ -153,6 +158,11 @@ input[type=submit] {
 /* image for page about us */
 .aboutus1 {
   width: 100%;
+}
+
+/* ---------------------BLOG--------------------*/
+.flex1 {
+  flex-grow: 1;
 }
 
 /*# sourceMappingURL=main.css.map */

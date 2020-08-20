@@ -134,6 +134,11 @@ input[type=submit]:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.small-im{
+  width: 4rem;
+  padding-bottom:1rem;
+}
 /*-----services style------*/
 
 
@@ -169,5 +174,12 @@ input[type=submit]:hover {
 /* image for page about us */
 .aboutus1 {
 width: 100%;
+}
+
+
+
+/* ---------------------BLOG--------------------*/
+.flex1 {
+  flex-grow:1;
 }
 
