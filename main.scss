@@ -1,5 +1,3 @@
-
-
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
       "Droid Sans Mono", monospace, monospace;
@@ -134,6 +132,11 @@ input[type=submit]:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.small-im{
+  width: 4rem;
+  padding-bottom:1rem;
+}
 /*-----services style------*/
 
 
@@ -167,4 +170,11 @@ input[type=submit]:hover {
 
 
 
+
+
+
+/* ---------------------BLOG--------------------*/
+.flex1 {
+  flex-grow:1;
+}
 
