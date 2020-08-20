@@ -25,6 +25,8 @@ We sell, buy and do repairs all in one.
 Are you looking for accessories or just general info?
 Please do check out our website for more information.
 
+![](resources/bike11.jpg)
+
 
 
 
