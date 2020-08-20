@@ -1,22 +1,11 @@
-/* Error: expected selector.
- *     ,
- * 171 | <<<<<<< HEAD
- *     | ^
- *     '
- *   main.scss 171:1  root stylesheet */
-
 body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
   white-space: pre;
   display: block;
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: expected selector.\a     \2577 \a 171 \2502  <<<<<<< HEAD\a     \2502  ^\a     \2575 \a   main.scss 171:1  root stylesheet";
 }
-<<<<<<< HEAD
-=======
 
 a a:hover {
   border-bottom-color: transparent;
@@ -177,4 +166,3 @@ input[type=submit] {
 }
 
 /*# sourceMappingURL=main.css.map */
->>>>>>> cf655e0931b2bee6a85668210f381ae1be449ce4
