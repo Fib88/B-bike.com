@@ -135,9 +135,12 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
   }
+  #banner-text{font-size: small}
+  #hiddedM{display: none;}
 }
 
 /*-------------------------HOME PAGE-----------------------------*/
+
 
 .parallax {
   /* The image used */
@@ -157,6 +160,15 @@ input[type=submit]:hover {
   width: 4rem;
   padding-bottom:1rem;
 }
+@media only screen and (max-width: 600px) {
+  .col{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+
 /*-----services style------*/
 
 
