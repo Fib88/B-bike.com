@@ -1,6 +1,6 @@
 
-# B-Bike.com
-
+# B-Bike.com 
+#### our company website [B-Bike](https://awet100.github.io/B-bike.com/index.html)
 ### Awet, Lea, Michiel, Whitney, Frank
 
 
