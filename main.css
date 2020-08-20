@@ -12,20 +12,14 @@ a a:active {
   color: #53e3fb !important; }
 
 .container {
-  font-family: "Roboto Slab", serif;
-}
+  font-family: 'Roboto Slab', serif; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #1d1c1c;
   font-weight: 600;
   line-height: 1.65;
-<<<<<<< HEAD
-  margin: 0 0 1em 0; }
-=======
   margin: 0 0 1em 0;
-  font-family: "Roboto Slab", serif;
-}
->>>>>>> 879067cfa48da2dea1b1d7b8f67a4b6b3fce0a37
+  font-family: 'Roboto Slab', serif; }
 
 h1 {
   font-size: 2.5em; }
@@ -53,28 +47,20 @@ h6 {
     font-size: 1.5em; }
 
   h3 {
-<<<<<<< HEAD
     font-size: 1.25em; } }
-=======
-    font-size: 1.25em;
-  }
-}
 .map-responsive {
   overflow: hidden;
   padding-bottom: 75%;
   position: relative;
-  height: 0;
-}
+  height: 0; }
 
 .map-responsive iframe {
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
-  position: absolute;
-}
+  position: absolute; }
 
->>>>>>> 879067cfa48da2dea1b1d7b8f67a4b6b3fce0a37
 /* ---------------------------------START OF CONTACT FORM */
 * {
   box-sizing: border-box; }
@@ -116,7 +102,13 @@ input[type=submit] {
 @media screen and (max-width: 600px) {
   .column, input[type=submit] {
     width: 100%;
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  #banner-text {
+    font-size: small; }
+
+  #hiddedM {
+    display: none; } }
 /*-------------------------HOME PAGE-----------------------------*/
 .parallax {
   /* The image used */
@@ -172,7 +164,6 @@ input[type=submit] {
   flex-grow: 1; }
 
 .text_spacingblog {
-  margin-right: 20px;
-}
+  margin-right: 20px; }
 
 /*# sourceMappingURL=main.css.map */
