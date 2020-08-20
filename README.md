@@ -1,9 +1,22 @@
 
-# B-Bike.com
-
+# B-Bike.com 
+#### our company website [B-Bike](https://awet100.github.io/B-bike.com/index.html)
 ### Awet, Lea, Michiel, Whitney, Frank
 
+This readme contains information regarding a project for BeCode.
+We invented a fictional company and made a functional website for said company.
+Each person focused on one page but we still made sure to keep the pages coherent in theme
+and styling.
 
+
+### We divided the pages as follows:
+
+
++ Lea: Home Page
++ Whitney : About Us
++ Awet : Services/Products
++ Michiel : Contact
++ Frank : Blog 
 
 ## About B-Bike:
 
@@ -11,6 +24,10 @@ Be-Bike is young company focused on cycling. We have everything to get you start
 We sell, buy and do repairs all in one. 
 Are you looking for accessories or just general info?
 Please do check out our website for more information.
+
+![](resources/bike11.jpg)
+
+
 
 
 
@@ -184,3 +201,6 @@ Doing the evaluation
 ### Errors are to be avoided
 - [ ] No http resources are used on an https website
 - [ ] The console shows no errors
+
+### Personal requirements
+- [ ] Make your urls open in a new tab

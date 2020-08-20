@@ -10,24 +10,22 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<div class="header text-center">
-    <h1>INSERT IMAGE HERE</h1>
-</div>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">B-bike</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item text-capitalize">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item text-capitalize">
                 <a class="nav-link" href="aboutus.html">about us</a>
@@ -38,28 +36,27 @@
             <li class="nav-item text-capitalize">
                 <a class="nav-link" href="blog.html">blog</a>
             </li>
-            <li class="nav-item active text-capitalize">
+            <li class="nav-item text-capitalize">
                 <a class="nav-link" href="contact.html">contact</a>
             </li>
         </ul>
     </div>
 </nav>
 
-<div class="parallax">
-    <div class="wrap-center">
-        <div class="banner-centered" id="banner-text">
-            <h2 class="mb-0">Welcome to <strong>B-bike</strong>, have a ride on our site</h2>
+<div class="parallax ">
+    <div class="wrap-center row">
+        <div class="banner-centered col" id="banner-text">
+            <h2 class="mb-0">Welcome to <strong>B-bike</strong><span class="hiddedM">, have a ride on our site</span></h2>
             <a href="services.html" class="btn btn-outline-light mt-4 text-uppercase">Discover our bikes</a>
         </div>
     </div>
 </div>
 
-
 <div class="container pt-5">
-    <div class="media border-bottom">
-        <img class="d-flex align-self-center  img-thumbnail ml-5" src="resources/bike2.jpg"
+    <div class="media border-bottom row">
+        <img class="d-flex align-self-center  img-thumbnail ml-5 col" src="resources/bike2.jpg"
              alt="Generic placeholder image" style="max-height: 300px; max-width: 300px;">
-        <div class="media-body m-5">
+        <div class="media-body m-5 col">
             <h2 class="mt-0">The bike</h2>
             <p>B-bikes have been designed to offer optimal comfort in the streets of Antwerpen. Its wide saddle, large
                 wheels and front suspension help to tame cobblestones and tram rails. Thanks to its electric assistance
@@ -68,8 +65,8 @@
                 children.</p>
         </div>
     </div>
-    <div class="media border-bottom">
-        <div class="media-body m-5">
+    <div class="media border-bottom row">
+        <div class="media-body m-5 col">
             <h2 class="mt-0">Sustainability</h2>
             <p>Through developing personalised solutions that facilitate and encourage people to transition to cycling,
                 B-bike contributes to a higher quality of life.</p>
@@ -77,13 +74,13 @@
                 the PV farm that we own. By owning a B-Bike you become a part of the community that cares for the
                 sustainability of our planet.</p>
         </div>
-        <img class="d-flex align-self-center img-thumbnail mr-5" src="resources/bike3.jpg"
+        <img class="d-flex align-self-center img-thumbnail mr-5 col" src="resources/bike3.jpg"
              style="max-height: 300px; max-width: 300px;" alt="Generic placeholder image">
     </div>
-    <div class="media">
-        <img class="d-flex align-self-center  img-thumbnail ml-5" src="resources/bike4.jpg"
+    <div class="media row">
+        <img class="d-flex align-self-center  img-thumbnail ml-5 col" src="resources/bike4.jpg"
              alt="Generic placeholder image" style="max-height: 300px; max-width: 300px;">
-        <div class="media-body m-5">
+        <div class="media-body m-5 col">
             <h2 class="mt-0">Cycle repair and workshop services</h2>
             <p>Our fully equipped workshops are class leading. We handle all bicycle repairs from simple puncture fixes
                 through to complex builds and repairs. Our mechanics are Cytech-qualified and trained on Bromptons, hub
@@ -101,7 +98,7 @@
                     to a comprehensive tune-up, we can have you road-ready in no time.</p>
             </div>
         </div>
-        <div class="card border-0">
+        <div class="card border-0 ">
             <div class="card-body">
                 <img class="card-img-top small-im" src="resources/001-bycicle.png" alt="Card image cap">
                 <h4 class="card-title">Quality</h4>
@@ -109,7 +106,7 @@
                     the lives of our customers.</p>
             </div>
         </div>
-        <div class="card border-0">
+        <div class="card border-0 ">
             <div class="card-body">
                 <img class="card-img-top small-im" src="resources/002-credit-card.png" alt="Card image cap">
                 <h4 class="card-title">Payment</h4>
@@ -121,22 +118,20 @@
 </div>
 
 <!-- Footer -->
-<footer class="page-footer font-small text-light bg-dark">
-    <div class="container mt-3 d-flex flex-row pt-5">
-        <div class="p-2 m-3 w-25">
-            <div class="card-body">
-                <h3 class="card-title text-light">B-bike</h3>
-                <p class="card-text">
+<footer class="page-footer font-small text-light bg-dark ">
+    <div class="container pt-5">
+        <div class="row ">
+            <div class="col col-4">
+                <h3 class="text-light">B-bike</h3>
+                <p class="hiddedM">
                     Tolhuis,<br>
                     Sint-Pietersvliet 7,<br>
                     2000 Antwerpen
                 </p>
-                <p>Phone : 555-555-5555</p>
+                <p class="hiddedM">Phone : 555-555-5555</p>
             </div>
-        </div>
-        <div class="p-2 m-3 w-50 ">
-            <div class="card-body">
-                <table class="table text-light">
+            <div class="col col-8">
+                <table class="table text-light ">
                     <thead>
                     <tr class="text-center">
                         <th></th>
@@ -157,7 +152,6 @@
             </div>
         </div>
     </div>
-
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
