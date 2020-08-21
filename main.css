@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Slab", serif;
 }
 
+p {
+  color: #1d1c1c;
+}
+
 h1 {
   font-size: 2.5em;
 }
@@ -280,14 +284,6 @@ width: 100%;
   -webkit-animation: linear infinite alternate;
   -webkit-animation-name: run;
   -webkit-animation-duration: 5s;
-}
-
-.padding1 {
-  padding-right: 10px;
-}
-
-.padding2 {
-  padding-left: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
