@@ -21,7 +21,7 @@ a {
   font-family: 'Roboto Slab', serif;
 }
 
-a.navbar-brand{
+.navbar-brand{
   font-weight: 600;
   color: #0275d8;
 }
@@ -281,12 +281,10 @@ a > .ico {
   background-color: grey;
   padding: 10px;
 }
-<<<<<<< HEAD
+
 a:hover > .ico {
   background-color: #666;
 }
-=======
->>>>>>> 460c87a3dce9162da5c0941114de8856c5a0c890
 
 /* ---------------------BLOG--------------------*/
 .flex1 {
@@ -320,5 +318,14 @@ a:hover > .ico {
   -webkit-animation-duration: 12s;
 }
 
+#facebook {
+  font-size: 30px;
+}
+#twitter {
+  font-size: 30px;
+}
+#instagram {
+  font-size: 30px;
+}
 
 
