@@ -201,4 +201,41 @@ width: 100%;
 #otherfont {
   font-family: "Roboto Slab", serif; }
 
+@keyframes bycicle {
+  0% {
+    left: 0px;
+  }
+  25% {
+    left: 25%;
+  }
+  50% {
+    left: 50%;
+  }
+  75% {
+    left: 75%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@-webkit-keyframes run {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 50%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.bycicleani {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 5s;
+}
+
 /*# sourceMappingURL=main.css.map */
