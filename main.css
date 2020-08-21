@@ -242,11 +242,11 @@ a > .ico {
     left: 100%; } }
 @-webkit-keyframes run {
   0% {
-    left: 0; }
+    left: -10%; }
   50% {
     left: 50%; }
   100% {
-    left: 100%; } }
+    left: 110%; } }
 .bycicleani {
   width: 100px;
   height: 100px;
