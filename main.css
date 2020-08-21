@@ -239,10 +239,43 @@ h5-size {
 width: 100%;
 } */
 /*
+/* for testimonials slide */
+.card .carousel-item {
+  height: 200px;
+}
 
+.card .carousel-caption {
+  padding: 0;
+  right: 0;
+  left: 0;
+  color: #3d3d3d;
+}
 
+.card .carousel-caption h3 {
+  color: #3d3d3d;
+}
 
+.card .carousel-caption p {
+  line-height: 30px;
+}
 
+.card .carousel-caption .col-sm-3 {
+  display: flex;
+  align-items: center;
+}
+
+.card .carousel-caption .col-sm-9 {
+  text-align: left;
+}
+
+.navi a {
+  text-decoration: none;
+}
+
+a > .ico {
+  background-color: grey;
+  padding: 10px;
+}
 
 /* ---------------------BLOG--------------------*/
 .flex1 {
@@ -272,22 +305,22 @@ width: 100%;
 }
 @-webkit-keyframes run {
   0% {
-    left: 0;
+    left: -10%;
   }
   50% {
     left: 50%;
   }
   100% {
-    left: 100%;
+    left: 110%;
   }
 }
 .bycicleani {
   width: 100px;
   height: 100px;
   position: relative;
-  -webkit-animation: linear infinite alternate;
+  -webkit-animation: linear infinite;
   -webkit-animation-name: run;
-  -webkit-animation-duration: 5s;
+  -webkit-animation-duration: 12s;
 }
 
 /*# sourceMappingURL=main.css.map */
