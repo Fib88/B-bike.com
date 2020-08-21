@@ -79,6 +79,22 @@ h6 {
 }
 
 /* ---------------------------------START OF CONTACT FORM */
+.hover-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+}
+
+.hover-image:hover img {
+  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  box-shadow: 2px 2px 2px #4b4b4b;
+}
+
 * {
   box-sizing: border-box;
 }
