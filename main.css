@@ -1,8 +1,18 @@
+/* Error: expected "}".
+ *     ,
+ * 306 | }
+ *     |  ^
+ *     '
+ *   main.scss 306:2  root stylesheet */
+
 body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
   white-space: pre;
   display: block;
   padding: 1em;
   margin-bottom: 1em;
+<<<<<<< HEAD
   border-bottom: 2px solid black; }
 
 a a:hover {
@@ -231,3 +241,8 @@ width: 100%;
   -webkit-animation-duration: 5s; }
 
 /*# sourceMappingURL=main.css.map */
+=======
+  border-bottom: 2px solid black;
+  content: 'Error: expected "}".\a     \2577 \a 306 \2502  }\a     \2502   ^\a     \2575 \a   main.scss 306:2  root stylesheet';
+}
+>>>>>>> e1810933d9db1bab922b614dc9079719b133bc7b
