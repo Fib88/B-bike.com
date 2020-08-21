@@ -170,11 +170,24 @@ input[type=submit] {
   padding-bottom: 1rem;
 }
 
-@media only screen and (max-width: 600px) {
-  .col {
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+@media screen and (max-width: 600px) {
+  .hiddedM {
+    display: none;
+  }
+}
+div.animation {
+  position: relative;
+  animation-name: cycling;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+
+@keyframes cycling {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 75%;
   }
 }
 /*-----services style------*/
