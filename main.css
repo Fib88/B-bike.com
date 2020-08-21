@@ -155,8 +155,7 @@ div.animation {
     left: 75%; } }
 /*-----services style------*/
 h5-size {
-  font-size: 2em;
-}
+  font-size: 2em; }
 
 .list-style li {
   list-style: none; }
@@ -199,12 +198,6 @@ width: 100%;
 .flex1 {
   flex-grow: 1; }
 
-<<<<<<< HEAD
-.text_spacingblog {
-  margin-right: 20px; }
-
-=======
->>>>>>> 98a3a64671615114edec9c164fe7d9376a869e23
 #otherfont {
   font-family: "Roboto Slab", serif; }
 
@@ -235,11 +228,9 @@ width: 100%;
   -webkit-animation-duration: 5s; }
 
 .padding1 {
-  padding-right: 10px;
-}
+  padding-right: 10px; }
 
 .padding2 {
-  padding-left: 10px;
-}
+  padding-left: 10px; }
 
 /*# sourceMappingURL=main.css.map */
