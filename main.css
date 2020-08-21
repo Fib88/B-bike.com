@@ -1,8 +1,18 @@
+/* Error: expected selector.
+ *     ,
+ * 284 | <<<<<<< HEAD
+ *     | ^
+ *     '
+ *   main.scss 284:1  root stylesheet */
+
 body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
   white-space: pre;
   display: block;
   padding: 1em;
   margin-bottom: 1em;
+<<<<<<< HEAD
   border-bottom: 2px solid black; }
 
 a a:hover {
@@ -263,3 +273,8 @@ a > .ico {
   -webkit-animation-duration: 12s; }
 
 /*# sourceMappingURL=main.css.map */
+=======
+  border-bottom: 2px solid black;
+  content: "Error: expected selector.\a     \2577 \a 284 \2502  <<<<<<< HEAD\a     \2502  ^\a     \2575 \a   main.scss 284:1  root stylesheet";
+}
+>>>>>>> a823869fc4834229fd80c156d609644975afda21
