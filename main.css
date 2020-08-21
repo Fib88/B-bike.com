@@ -191,6 +191,10 @@ div.animation {
   }
 }
 /*-----services style------*/
+h5-size {
+  font-size: 2em;
+}
+
 .list-style li {
   list-style: none;
 }
