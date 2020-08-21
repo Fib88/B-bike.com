@@ -165,7 +165,20 @@ input[type=submit]:hover {
     display: none;
   }
 }
+div.animation{
+  position: relative;
+  animation-name: cycling;
+  animation-duration: 4s;
+  animation-iteration-count:1;
+}
 
+@keyframes cycling {
+  0%   {left:0px;}
+  25%  {left:25%;}
+  50%  {left:50%;}
+  75%  {left:75%;}
+  100% {left:100%;}
+}
 
 /*-----services style------*/
 .list-style li {
