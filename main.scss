@@ -28,6 +28,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 1em 0;
   font-family: 'Roboto Slab', serif;
 }
+p{
+  color: #1d1c1c;
+}
+
 
 h1 {
   font-size: 2.5em;
@@ -84,6 +88,23 @@ h6 {
 }
 
 /* ---------------------------------START OF CONTACT FORM */
+
+.hover-image img {
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  cursor:pointer;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+}
+
+.hover-image:hover img {
+  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  box-shadow: 2px 2px 2px #4b4b4b;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -130,7 +151,7 @@ input[type=submit]:hover {
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
   .column, input[type=submit] {
     width: 100%;
     margin-top: 0;
@@ -160,17 +181,32 @@ input[type=submit]:hover {
   width: 4rem;
   padding-bottom:1rem;
 }
-@media only screen and (max-width: 600px) {
-  .col{
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+@media screen and (max-width: 1200px) {
+  .hiddedM{
+    display: none;
   }
 }
+div.animation{
+  position: relative;
+  animation-name: cycling;
+  animation-duration: 4s;
+  animation-iteration-count:1;
+}
 
+@keyframes cycling {
+  0%   {left:0px;}
+  100% {left:75%;}
+}
 
 /*-----services style------*/
 
+h5-size {
+  font-size: 2em;
+}
+
+.list-style li {
+  list-style: none;
+}
 
 .wrap-center{
   margin: 0 auto;
@@ -243,12 +279,31 @@ a > .ico {
   flex-grow:1;
 }
 
-.text_spacingblog {
-  margin-right: 20px;
-}
-
 #otherfont {
   font-family: "Roboto Slab", serif;
 }
+
+@keyframes bycicle {
+  0%   {left:0px;}
+  25%  {left:25%;}
+  50%  {left:50%;}
+  75%  {left:75%;}
+  100% {left:100%;}
+}
+
+@-webkit-keyframes run {
+  0% { left: 0;}
+  50%{ left : 50%;}
+  100%{ left: 100%;}
+}
+.bycicleani {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  -webkit-animation:linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 12s;
+}
+
 
 
