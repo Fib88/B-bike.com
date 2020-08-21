@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Error: Invalid CSS after "}": expected "}", was ""
         on line 310 of main.scss
@@ -31,3 +32,561 @@ body:before {
   white-space: pre;
   font-family: monospace;
   content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 310 of main.scss\A \A 305:   -webkit-animation-duration: 12s;\A 306: }"; }
+=======
+body::before {
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+<<<<<<< HEAD
+  border-bottom: 2px solid black; }
+
+a a:hover {
+  border-bottom-color: transparent;
+  color: #9bf1ff !important; }
+a a:active {
+  color: #53e3fb !important; }
+
+.container {
+  font-family: 'Roboto Slab', serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1d1c1c;
+  font-weight: 600;
+  line-height: 1.65;
+  margin: 0 0 1em 0;
+  font-family: 'Roboto Slab', serif; }
+
+p {
+  color: #1d1c1c; }
+
+h1 {
+  font-size: 2.5em; }
+
+h2 {
+  font-size: 1.75em; }
+
+h3 {
+  font-size: 1.35em; }
+
+h4 {
+  font-size: 1.1em; }
+
+h5 {
+  font-size: 0.9em; }
+
+h6 {
+  font-size: 0.7em; }
+
+@media screen and (max-width: 736px) {
+  h1 {
+    font-size: 2em; }
+
+  h2 {
+    font-size: 1.5em; }
+
+  h3 {
+    font-size: 1.25em; } }
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 75%;
+  position: relative;
+  height: 0; }
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+/* ---------------------------------START OF CONTACT FORM */
+.hover-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear; }
+
+.hover-image:hover img {
+  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  box-shadow: 2px 2px 2px #4b4b4b; }
+
+* {
+  box-sizing: border-box; }
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; }
+
+input[type=submit] {
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer; }
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  padding: 10px; }
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px; }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 576px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0; }
+
+  #banner-text {
+    font-size: small; }
+
+  .hiddedM {
+    display: none; } }
+/*-------------------------HOME PAGE-----------------------------*/
+.parallax {
+  /* The image used */
+  background-image: url("resources/image1.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.small-im {
+  width: 4rem;
+  padding-bottom: 1rem; }
+
+@media screen and (max-width: 1200px) {
+  .hiddedM {
+    display: none; } }
+div.animation {
+  position: relative;
+  animation-name: cycling;
+  animation-duration: 4s;
+  animation-iteration-count: 1; }
+
+@keyframes cycling {
+  0% {
+    left: 0px; }
+  100% {
+    left: 75%; } }
+/*-----services style------*/
+h5-size {
+  font-size: 2em; }
+
+.list-style li {
+  list-style: none; }
+
+.wrap-center {
+  margin: 0 auto;
+  position: relative;
+  max-width: 73.231em; }
+
+.banner-centered {
+  text-align: center;
+  position: absolute;
+  display: block;
+  max-width: 75.231em;
+  height: inherit;
+  overflow: hidden;
+  margin-top: 100px; }
+
+.banner-centered h2 {
+  font-size: 5.385em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fafafa;
+  font-weight: 100;
+  display: block; }
+
+/*-------------------------------------------------------------------------*/
+/* image for page about us
+.aboutus1 {
+width: 100%;
+} */
+/*
+
+
+
+
+
+/* ---------------------BLOG--------------------*/
+.flex1 {
+  flex-grow: 1; }
+
+#otherfont {
+  font-family: "Roboto Slab", serif; }
+
+@keyframes bycicle {
+  0% {
+    left: 0px; }
+  25% {
+    left: 25%; }
+  50% {
+    left: 50%; }
+  75% {
+    left: 75%; }
+  100% {
+    left: 100%; } }
+@-webkit-keyframes run {
+  0% {
+    left: 0; }
+  50% {
+    left: 50%; }
+  100% {
+    left: 100%; } }
+.bycicleani {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 5s; }
+
+/*# sourceMappingURL=main.css.map */
+=======
+  border-bottom: 2px solid black;
+}
+<<<<<<< HEAD
+
+a a:hover {
+  border-bottom-color: transparent;
+  color: #9bf1ff !important;
+}
+a a:active {
+  color: #53e3fb !important;
+}
+
+.container {
+  font-family: "Roboto Slab", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1d1c1c;
+  font-weight: 600;
+  line-height: 1.65;
+  margin: 0 0 1em 0;
+  font-family: "Roboto Slab", serif;
+}
+
+p {
+  color: #1d1c1c;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.35em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+h5 {
+  font-size: 0.9em;
+}
+
+h6 {
+  font-size: 0.7em;
+}
+
+@media screen and (max-width: 736px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+  }
+}
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 75%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* ---------------------------------START OF CONTACT FORM */
+.hover-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+}
+
+.hover-image:hover img {
+  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  box-shadow: 2px 2px 2px #4b4b4b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 576px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  #banner-text {
+    font-size: small;
+  }
+
+  .hiddedM {
+    display: none;
+  }
+}
+/*-------------------------HOME PAGE-----------------------------*/
+.parallax {
+  /* The image used */
+  background-image: url("resources/image1.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.small-im {
+  width: 4rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .hiddedM {
+    display: none;
+  }
+}
+div.animation {
+  position: relative;
+  animation-name: cycling;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+
+@keyframes cycling {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 75%;
+  }
+}
+/*-----services style------*/
+h5-size {
+  font-size: 2em;
+}
+
+.list-style li {
+  list-style: none;
+}
+
+.wrap-center {
+  margin: 0 auto;
+  position: relative;
+  max-width: 73.231em;
+}
+
+.banner-centered {
+  text-align: center;
+  position: absolute;
+  display: block;
+  max-width: 75.231em;
+  height: inherit;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.banner-centered h2 {
+  font-size: 5.385em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fafafa;
+  font-weight: 100;
+  display: block;
+}
+
+/*-------------------------------------------------------------------------*/
+/* image for page about us
+.aboutus1 {
+width: 100%;
+} */
+/*
+/* for testimonials slide */
+.card .carousel-item {
+  height: 200px;
+}
+
+.card .carousel-caption {
+  padding: 0;
+  right: 0;
+  left: 0;
+  color: #3d3d3d;
+}
+
+.card .carousel-caption h3 {
+  color: #3d3d3d;
+}
+
+.card .carousel-caption p {
+  line-height: 30px;
+}
+
+.card .carousel-caption .col-sm-3 {
+  display: flex;
+  align-items: center;
+}
+
+.card .carousel-caption .col-sm-9 {
+  text-align: left;
+}
+
+.navi a {
+  text-decoration: none;
+}
+
+a > .ico {
+  background-color: grey;
+  padding: 10px;
+}
+
+/* ---------------------BLOG--------------------*/
+.flex1 {
+  flex-grow: 1;
+}
+
+#otherfont {
+  font-family: "Roboto Slab", serif;
+}
+
+@keyframes bycicle {
+  0% {
+    left: 0px;
+  }
+  25% {
+    left: 25%;
+  }
+  50% {
+    left: 50%;
+  }
+  75% {
+    left: 75%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@-webkit-keyframes run {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 50%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.bycicleani {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 12s;
+}
+
+/*# sourceMappingURL=main.css.map */
+=======
+>>>>>>> e1810933d9db1bab922b614dc9079719b133bc7b
+>>>>>>> 398f882fd916226a8039ad2090362e9e09e69357
+>>>>>>> a3874af8d885b8c2ab3ca2a107178fd08f66911e
