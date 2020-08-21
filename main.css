@@ -159,6 +159,21 @@ input[type=submit] {
     display: none;
   }
 }
+div.animation {
+  position: relative;
+  animation-name: cycling;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+
+@keyframes cycling {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 75%;
+  }
+}
 /*-----services style------*/
 .list-style li {
   list-style: none;
