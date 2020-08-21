@@ -21,8 +21,13 @@ a {
   font-family: 'Roboto Slab', serif;
 }
 
+.navbar-brand{
+  font-weight: 600;
+  color: #0275d8;
+}
+
 h1, h2, h3, h4, h5, h6 {
-  color: #1d1c1c;
+  color: #0275d8;
   font-weight: 600;
   line-height: 1.65;
   margin: 0 0 1em 0;
@@ -133,6 +138,9 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   padding: 10px;
+}
+.btn {
+  font-family: 'Roboto Slab', serif;
 }
 
 /* Create two columns that float next to eachother */
@@ -272,6 +280,10 @@ width: 100%;
 a > .ico {
   background-color: grey;
   padding: 10px;
+}
+
+a:hover > .ico {
+  background-color: #666;
 }
 
 /* ---------------------BLOG--------------------*/
