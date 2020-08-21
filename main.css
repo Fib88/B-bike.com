@@ -102,6 +102,10 @@ input[type=submit] {
   border-radius: 5px;
   padding: 10px; }
 
+.btn {
+  font-family: "Roboto Slab", serif;
+}
+
 /* Create two columns that float next to eachother */
 .column {
   float: left;
