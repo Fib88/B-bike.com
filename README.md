@@ -95,7 +95,7 @@ Doing the evaluation
 - [ ] Everything is relevant (no image of a barber on the website of a baker)
 
 ### Content
-- [x] Openinghours (if needed)
+- [x] Opening hours (if needed)
 - [x] Address (if needed)
 - [x] Clickable email
 - [x] A working form (you can use https://formspree.io)
