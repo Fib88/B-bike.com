@@ -160,18 +160,17 @@ input[type=submit]:hover {
   width: 4rem;
   padding-bottom:1rem;
 }
-@media only screen and (max-width: 600px) {
-  .col{
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+@media screen and (max-width: 600px) {
+  .hiddedM{
+    display: none;
   }
 }
 
 
 /*-----services style------*/
-
-
+.list-style li {
+  list-style: none;
+}
 .wrap-center{
   margin: 0 auto;
   position: relative;
