@@ -91,7 +91,7 @@ Doing the evaluation
 - [x] English and dutch are not mixed
 - [ ] No spelling errors
 - [ ] No grammar errors
-- [ ] The website is deployed somewhere
+- [x] The website is deployed somewhere
 - [ ] Everything is relevant (no image of a barber on the website of a baker)
 
 ### Content
@@ -101,8 +101,8 @@ Doing the evaluation
 - [x] A working form (you can use https://formspree.io)
 
 ### Text life matters aka typography is real
-- [ ] Some words are bolded
-- [ ] Some words are italic
+- [x] Some words are bolded
+- [x] Some words are italic
 - [ ] Some words have a different color
 - [x] We aren't using a default font, cause it's not 2004
 - [ ] Contrast is not too low
@@ -212,7 +212,7 @@ Doing the evaluation
 - [ ] Make your page fully accessible for the visualy impaired/blind
 - [ ] Add an effect on hover over your clickable pictures 
 - [ ] Add a review carousel
-- [ ] Add at least one CSS animation
+- [x] Add at least one CSS animation
 
 
 
