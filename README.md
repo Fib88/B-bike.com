@@ -212,7 +212,7 @@ Doing the evaluation
 - [ ] Make your page fully accessible for the visualy impaired/blind
 - [ ] Add an effect on hover over your clickable pictures 
 - [ ] Add a review carousel
-- [ ] Add at least one CSS animation
+- [x] Add at least one CSS animation
 
 
 
