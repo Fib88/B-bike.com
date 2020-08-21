@@ -119,7 +119,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  color: white;
+  color: whitesmoke;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
@@ -326,6 +326,18 @@ a:hover > .ico {
   -webkit-animation: linear infinite;
   -webkit-animation-name: run;
   -webkit-animation-duration: 12s;
+}
+
+#facebook {
+  font-size: 30px;
+}
+
+#twitter {
+  font-size: 30px;
+}
+
+#instagram {
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -125,7 +125,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  color: white;
+  color: whitesmoke;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
@@ -277,6 +277,7 @@ a > .ico {
   background-color: grey;
   padding: 10px;
 }
+
 a:hover > .ico {
   background-color: #666;
 }
@@ -313,5 +314,14 @@ a:hover > .ico {
   -webkit-animation-duration: 12s;
 }
 
+#facebook {
+  font-size: 30px;
+}
+#twitter {
+  font-size: 30px;
+}
+#instagram {
+  font-size: 30px;
+}
 
 
