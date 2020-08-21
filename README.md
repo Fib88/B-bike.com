@@ -103,9 +103,9 @@ Doing the evaluation
 ### Text life matters aka typography is real
 - [x] Some words are bolded
 - [x] Some words are italic
-- [ ] Some words have a different color
+- [x] Some words have a different color
 - [x] We aren't using a default font, cause it's not 2004
-- [ ] Contrast is not too low
+- [x] Contrast is not too low
 - [ ] Typographic hierachy is correct
 - [ ] Text has a clear intro, middle, conclusion
 - [ ] Intro, middle, conclusion is style correctly
@@ -119,7 +119,7 @@ Doing the evaluation
 - [x] The website is not an ugly color mess
 - [ ] The styling is consistent
 - [ ] It is not four totally different pages thrown together
-- [ ] Everything works even if you are colorblind
+- [x] Everything works even if you are colorblind
 
 ### Not everyone has free 4G aka speed matters
 - [ ] Pictures are not too heavy
@@ -128,7 +128,7 @@ Doing the evaluation
 ### A company wants to be found/SEO	
 - [ ] All the keywords this company wants to be found on are on the page 
 - [ ] Page has an H1 tag
-- [ ] Page has keyword meta tags
+- [x] Page has keyword meta tags
 - [ ] Page has a title with the keywords in
 - [ ] Page loads fast
  
@@ -161,13 +161,13 @@ Doing the evaluation
 
 ### I'm So Meta, Even This Acronym
 - [ ] Social media sharing meta tags are correct
-- [ ] Keywords meta tag
-- [ ] Description meta tag
+- [x] Keywords meta tag
+- [x] Description meta tag
 - [ ] Title of the page is included
 - [ ] Favicon is included
 - [ ] Responsive meta tag is included
-- [ ] Charset is defined
-- [ ] Author is defined
+- [x] Charset is defined
+- [x] Author is defined
 
 ### Data is the new oil
 - [ ] Implements (Google) analytics
