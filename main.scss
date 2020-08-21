@@ -272,7 +272,10 @@ width: 100%;
 a > .ico {
   background-color: grey;
   padding: 10px;
-
+}
+a:hover > .ico {
+  background-color: #666;
+}
 
 /* ---------------------BLOG--------------------*/
 .flex1 {
